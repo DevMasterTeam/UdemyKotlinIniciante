@@ -60,8 +60,8 @@ fun printNumbers (n1: Int, n2: Int, ascending: Boolean) {
 ###
 ####
 
-Perceba que o número de linhas é igual o número do tamanho N da escada.
-Perceba também que a quantidade de # é igual ao tamanho N da escada na última linha.
+Perceba que o número de linhas é igual o número do tamanho da escada.
+Perceba também que a quantidade de # é igual ao tamanho da escada na última linha.
 Escreva um algoritmo que seja capaz de receber um valor inteiro N e escrever essa escada de tamanho N.
 
 Resposta:

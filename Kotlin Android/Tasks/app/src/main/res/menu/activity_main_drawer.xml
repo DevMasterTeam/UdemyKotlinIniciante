@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navNext"
+            android:icon="@drawable/ic_next_tasks"
+            android:title="A fazer" />
+        <item
+            android:id="@+id/navDone"
+            android:icon="@drawable/ic_all"
+            android:title="Feito" />
+        <item
+            android:id="@+id/navLogout"
+            android:icon="@drawable/ic_logout"
+            android:title="Sair" />
+    </group>
+
+</menu>

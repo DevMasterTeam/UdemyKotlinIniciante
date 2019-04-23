@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Componentes</string>
+    <string name="toast_me_custom">Toast me custom</string>
+    <string name="toast_me">Toast me</string>
+    <string name="snack_me">snack me</string>
+    <string name="atribuir_spinner">Atribuir spinner</string>
+    <string name="obter_spinner">Obter spinner</string>
+    <string name="progresso">Progresso</string>
+    <string name="atribuir_seekbar">Atribuir seekbar</string>
+    <string name="obter_seekbar">Obter seekbar</string>
+    <string name="date_picker">Date picker</string>
+    <string name="set_time_picker">set time picker</string>
+    <string name="get_time_picker">Get time picker</string>
+    <string name="seekbar_value">Seekbar value</string>
+
+    <string-array name="weight_array">
+        <item>Gramas</item>
+        <item>Kg</item>
+        <item>Arroba</item>
+        <item>Toneladas</item>
+    </string-array>
+
+</resources>

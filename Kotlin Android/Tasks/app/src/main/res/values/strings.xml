@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Tasks</string>
+
+    <string name="navigation_drawer_open">Abrir menu</string>
+    <string name="navigation_drawer_close">Fechar menu</string>
+
+    <string name="action_logout">Sair</string>
+
+    <string name="UNEXPECTED_ERROR">Um erro inesperado ocorreu. Tente novamento mais tarde.</string>
+    <string name="EMAIL_PASSWORD_INCORRECT">Usuário e/ou senha incorretos.</string>
+    <string name="INTERNET_NOT_AVAILABLE">Seu aparelho não possui conexão com a internet.</string>
+
+    <string name="registre_se_aqui">Ainda não tem uma conta?
+        <u>Registre-se!</u>
+    </string>
+    <string name="atualizar_tarefa">Atualizar tarefa</string>
+    <string name="atualizar_tarefa_button">ATUALIZAR TAREFA</string>
+    <string name="nenhuma_tarefa">Nenhuma tarefa</string>
+    <string name="uma_tarefa">Uma tarefa</string>
+    <string name="tarefas">tarefas</string>
+    <string name="tarefa_atualizada_com_sucesso">Tarefa atualizada com sucesso!</string>
+    <string name="tarefa_incluida_com_sucesso">Tarefa incluída com sucesso!</string>
+    <string name="tarefa_removida_com_sucesso">Tarefa removida com sucesso!</string>
+    <string name="email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+    <string name="nome">Nome</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="adicionar_nova_tarefa">Adicionar nova tarefa</string>
+    <string name="descricao">Descrição</string>
+    <string name="prioridade">Prioridade</string>
+    <string name="data_limite">Data Limite</string>
+    <string name="clique_para_selecionar_a_data">Clique para selecionar a data limite</string>
+    <string name="adicionar_tarefa">Adicionar tarefa</string>
+    <string name="weekday_dayandmonth">Dia, dia do mês</string>
+    <string name="completa">Completa</string>
+    <string name="completas">completas</string>
+    <string name="nenhuma_completa">Nenhuma completa</string>
+    <string name="uma_completa">Uma completa</string>
+    <string name="tarefas_completas">tarefas completas</string>
+    <string name="sim">Sim</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="remocao_de_tarefa">Remoção de tarefa</string>
+    <string name="nao_tem_uma_conta">Não tem uma conta?</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="usuario_senha_invalidos">Usuário e/ou senha inválidos!</string>
+    <string name="email_ja_em_uso">Email já está em uso!</string>
+    <string name="erro_inesperado">Algo de erro aconteceu! Tente novamente mais tarde!</string>
+    <string name="preencha_todos_campos">Preencha todos os campos!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
