@@ -75,7 +75,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
 
         var fragment: Fragment? = null
-        val id = item.itemId
 
         // Faz o tratamento do click do menu
         when (item.itemId) {
@@ -157,7 +156,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
         // Impede que seja possível voltar
         finish()
-
     }
 
     /**
@@ -189,9 +187,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         PriorityCacheConstants.setCache(mPriorityBusiness.getList())
     }
 
-    // Funções responsáveis pelo menu superior direito
-    // Comentadas para deixar como estudo
-    /*
+
+    /* Funções responsáveis pelo menu superior direito. Comentadas para deixar como estudo.
+
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu. this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.main, menu)
@@ -199,17 +197,12 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-
         val id = item.itemId
-
         return if (id == R.id.actionLogout) {
-
             true
         } else {
             super.onOptionsItemSelected(item)
         }
-
     }
     */
-
 }

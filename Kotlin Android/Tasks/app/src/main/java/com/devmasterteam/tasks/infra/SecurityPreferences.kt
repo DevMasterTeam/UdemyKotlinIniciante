@@ -12,11 +12,11 @@ class SecurityPreferences(context: Context) {
     }
 
     fun getStoredString(key: String): String {
-        return this.mSharedPreferences.getString(key, "")
+        return this.mSharedPreferences.getString(key, "") ?: ""
     }
 
     fun removeStoredString (key: String) {
-        this.mSharedPreferences.edit().remove(key).commit()
+        this.mSharedPreferences.edit().remove(key).apply()
     }
 
 }

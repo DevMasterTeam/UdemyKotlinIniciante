@@ -11,7 +11,6 @@ import com.devmasterteam.tasks.constants.TaskConstants
 import com.devmasterteam.tasks.infra.SecurityPreferences
 import kotlinx.android.synthetic.main.activity_login.*
 
-
 class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
     private lateinit var mUserBusiness: UserBusiness
@@ -19,6 +18,10 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+
+        if (supportActionBar != null) {
+            supportActionBar?.hide()
+        }
 
         // Inicializa variáveis
         mUserBusiness = UserBusiness(this)

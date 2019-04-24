@@ -12,7 +12,7 @@ class SecurityPrefences(context: Context) {
     }
 
     fun getStoredString(key: String): String {
-        return (this.mSharedPreferences.getString(key, "") ?: "")
+        return this.mSharedPreferences.getString(key, "") ?: ""
     }
 
 }

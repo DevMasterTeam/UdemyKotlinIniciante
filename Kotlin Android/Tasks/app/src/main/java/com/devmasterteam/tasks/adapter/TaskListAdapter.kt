@@ -8,21 +8,15 @@ import com.devmasterteam.tasks.entities.listener.OnTaskListFragmentInteractionLi
 import android.view.LayoutInflater
 import com.devmasterteam.tasks.R
 
-class TaskListAdapter (taskList: List<TaskEntity>, listener: OnTaskListFragmentInteractionListener) : RecyclerView.Adapter<TaskViewHolder>() {
-
-    private val mListTaskEntities: List<TaskEntity> = taskList
-    private val listener: OnTaskListFragmentInteractionListener = listener
+class TaskListAdapter (private val taskList: List<TaskEntity>, private val listener: OnTaskListFragmentInteractionListener) : RecyclerView.Adapter<TaskViewHolder>() {
 
     override fun getItemCount(): Int {
-        if (mListTaskEntities != null) {
-            return mListTaskEntities.size
-        }
-        return 0
+        return taskList.size
     }
 
     override fun onBindViewHolder(holder: TaskViewHolder, position: Int) {
         // Obtém item da lista
-        val task: TaskEntity = mListTaskEntities[position]
+        val task: TaskEntity = taskList[position]
         holder.bindData(task, listener)
     }
 

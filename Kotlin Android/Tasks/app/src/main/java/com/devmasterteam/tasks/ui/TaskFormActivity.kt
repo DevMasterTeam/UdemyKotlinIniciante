@@ -93,7 +93,6 @@ class TaskFormActivity : AppCompatActivity(), View.OnClickListener, DatePickerDi
         // Cria adapter e usa no elemento
         val adapter = ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, listPriorities)
         spinnerPriority.adapter = adapter
-
     }
 
     /**
@@ -126,7 +125,6 @@ class TaskFormActivity : AppCompatActivity(), View.OnClickListener, DatePickerDi
         } catch (e: ValidationException) {
             Toast.makeText(this, e.message, Toast.LENGTH_LONG).show()
         }
-
     }
 
     /**
@@ -167,7 +165,6 @@ class TaskFormActivity : AppCompatActivity(), View.OnClickListener, DatePickerDi
                     spinnerPriority.setSelection(getIndex(task.priorityId))
                 }
             }
-
         }
     }
 

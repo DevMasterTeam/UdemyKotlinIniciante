@@ -18,6 +18,10 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
 
+        if (supportActionBar != null) {
+            supportActionBar?.hide()
+        }
+
         // Inicializa variáveis
         mUserBusiness = UserBusiness(this)
 

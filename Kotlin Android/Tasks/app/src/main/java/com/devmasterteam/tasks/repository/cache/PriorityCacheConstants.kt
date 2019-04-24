@@ -10,7 +10,7 @@ class PriorityCacheConstants private constructor() {
     companion object {
         fun setCache(list: List<PriorityEntity>) {
             for (item in list) {
-                mPriorityCache.put(item.id, item.description)
+                mPriorityCache[item.id] = item.description
             }
         }
 
